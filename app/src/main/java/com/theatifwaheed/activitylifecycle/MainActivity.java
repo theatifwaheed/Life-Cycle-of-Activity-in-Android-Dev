@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setTitle("Life Cycle");
+
         Toast.makeText(MainActivity.this, "onCreate Called ",
                 Toast.LENGTH_LONG).show();
     }
